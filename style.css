@@ -1,0 +1,96 @@
+* {
+    font-size: large;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: -45px;
+    margin-right: 7vw;
+    font-size: 40px;
+    color: rgb(144 45 244);
+    text-shadow: 0px 0px 24px ;
+}
+
+.main {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(254, 254, 254);
+    height: 400px;
+    width: 318px;
+    display: flex;
+    margin-top: 10vh;
+    margin-left: 35vw;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px;
+
+}
+
+.btn {
+    height: 50px;
+    display: flex;
+    margin: 20px;
+
+
+}
+
+.number {
+    width: 100%;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: rgb(41, 40, 40);
+    color: white;
+
+    border-radius: 10px;
+    box-shadow: 1px 1px 0px 1px;
+}
+
+.clear {
+    cursor: pointer;
+    margin-top: 10px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.screen {
+    width: 95%;
+    height: 35px;
+    padding-top: 10px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    padding-right: 12px;
+}
+
+.number:hover {
+    background-color: aqua;
+    color:rgb(41, 40, 40);
+}
+
+.calculatorform {
+    height: 400px;
+    width: 318px;
+}
+
+form {
+
+    width: 250px;
+}
+
+#equal {
+    background-color: rgb(161, 145, 240);
+}
+
+.symbol {
+    background-color: rgb(183 219 241);
+    color: black;
+}

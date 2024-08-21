@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <head class="head">
+        <h1>Calculator</h1>
+    </head>
+    <div class="main">
+        <form action="" class="calculatorform" name="calculateform">
+            <div class="screen">
+                <input type="text" class="screen" name="screen"> <input type="reset" class="clear" value="clear"
+                    onclick=clear() name="">
+
+            </div>
+            <div class="btn">
+                <input type="button" class="number" name="num1" value="9" onclick=valuebutton(this)>
+                <input type="button" class="number" name="num2" value="8" onclick=valuebutton(this)>
+                <input type="button" class="number" name="num3" value="7" onclick=valuebutton(this)>
+                <input type="button" class="number symbol" name="num+" value="+" onclick=valuebutton(this)>
+            </div>
+            <div class="btn">
+                <input type="button" class="number" name="num4" value="6" onclick=valuebutton(this)>
+                <input type="button" class="number" name="num5" value="5" onclick=valuebutton(this)>
+                <input type="button" class="number" name="num6" value="4" onclick=valuebutton(this)>
+                <input type="button" class="number symbol" name="num-" value="-" onclick=valuebutton(this)>
+            </div>
+            <div class="btn">
+                <input type="button" class="number" name="num7" value="3" onclick=valuebutton(this)>
+                <input type="button" class="number" name="num8" value="2" onclick=valuebutton(this)>
+                <input type="button" class="number" name="num9" value="1" onclick=valuebutton(this)>
+                <input type="button" class="number symbol" name="num*" value="*" onclick=valuebutton(this)>
+            </div>
+            <div class="btn">
+                <input type="button" class="number symbol" name="num0" value="0" onclick=valuebutton(this)>
+                <input type="button" class="number symbol" name="num/" value="/" onclick=valuebutton(this)>
+                <input type="button" class="number symbol" name="num." value="." onclick=valuebutton(this)>
+                <input type="button" id="equal" class="number" name="num=" value="=" onclick=calculate(this)>
+            </div>
+        </form>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
